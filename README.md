@@ -211,6 +211,7 @@ Snakefile: snakefile.smk
 ```bash
 snakemake  -s snakefile.smk --cores all -f --dag | dot -Tsvg > pipeline.svg
 ```
+[!https://github.com/GavrilenkoA/snakemake/blob/main/pipeline.svg]
 
 В итоге весь набор правил отрисуется в виде графа - пригодится, если вам в презентации нужно будет показать пайплайн вашего анализа, будет альтернативой выковыриванию стролочек в Power Point.
 
