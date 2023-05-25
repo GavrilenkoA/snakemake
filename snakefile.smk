@@ -54,32 +54,6 @@ rule downoload_ref:
 
 
 
-# rule inspect_data:
-#     input:
-#         reads = 'reads.fastq.gz',
-
-#         dir = 'QC'
-#     output:
-#         'counts_read.txt'
-#     shell:
-#         'zcat {input.reads} | wc -l > {output} | mv {input.reads} {input.dir}'
-
-# rule fastqc_:
-#     input:
-#         reads = 'reads.fastq.gz'
-#     output:
-#         dir = directory('QC')
-#     shell:
-#         'mkdir {output.dir} | fastqc {input.reads} -o {output.dir}'
-
-
-
-
-# rule downoload_reads:
-#     output:
-#         'reads.fastq.gz'
-#     shell:
-#         'wget http://ftp.sra.ebi.ac.uk/vol1/fastq/SRR170/001/SRR1705851/SRR1705851.fastq.gz | mv SRR1705851.fastq.gz reads.fastq.gz'
 
 
 
