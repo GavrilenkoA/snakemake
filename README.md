@@ -1,4 +1,3 @@
-# snakemake
 # Snakmake
 
 Оу, всем привет. Сегодня мы расмотрим технологию Snakemake.
