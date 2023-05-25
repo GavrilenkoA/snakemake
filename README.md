@@ -191,7 +191,8 @@ rule NAME:
 
 Давайте решим задачу выравнивания коротких прочтений  на референс с помощью  snakemake.
 Input: reads.fastq.gz ( данные прочтений)
-Output: reads.mpileup (файл variant calling на на референсный геном) 
+Output: reads.mpileup (файл variant calling на на референсный геном)
+Snakefile: snakefile.smk
 
 Выделим набор правил:
 
